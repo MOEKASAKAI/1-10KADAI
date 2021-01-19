@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  margin: 50px auto;
+}
+
+.main-item {
+  background-color: #eeeeee;
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.main-step {
+  padding: 3px;
+  background-color: #ff9a4b;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-image1 {
+  height: 150px;
+  background-image: url(1-9演習問題img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-image2 {
+  height: 150px;
+  background-image: url(1-9演習問題img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-image3 {
+  height: 150px;
+  background-image: url(1-9演習問題img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-title {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+}
