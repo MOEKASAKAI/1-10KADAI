@@ -38,21 +38,21 @@ main {
 
 .main-image1 {
   height: 150px;
-  background-image: url(1-9演習問題img/flow01.png);
+  background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .main-image2 {
   height: 150px;
-  background-image: url(1-9演習問題img/flow02.png);
+  background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
 }
 
 .main-image3 {
   height: 150px;
-  background-image: url(1-9演習問題img/flow03.png);
+  background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
 }
@@ -64,4 +64,27 @@ main {
 footer {
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px 50px 0 0;
+  }
+
+  .main-item,
+  .main-item:nth-child(3) {
+    width: 90%;
+    margin: auto;
+  }
+
+  .main-item:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
 }
